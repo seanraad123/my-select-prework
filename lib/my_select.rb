@@ -1,4 +1,4 @@
-def my_select(array, num)
+def my_select(array)
   counter = 0
   result = []
   while counter < array.size
