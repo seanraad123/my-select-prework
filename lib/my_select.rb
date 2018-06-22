@@ -3,7 +3,7 @@ def my_select(array, num)
   result = []
   while counter < array.size
       if yield(array[counter]) == true
-        result.push(array.[counter])
+        result.push(array[counter])
       end
   end
 end
