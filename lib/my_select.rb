@@ -4,6 +4,7 @@ def my_select(array, num)
   while counter < array.size
       if yield(array[counter]) == true
         result.push(array.[counter])
+      end
   end
 end
 
