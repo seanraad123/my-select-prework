@@ -1,8 +1,9 @@
 def my_select(array, num)
-  counter = 1
+  counter = 0
   result = []
-  #while counter < array.size
-  #end
+  while counter < array.size
+
+  end
 end
 
 
