@@ -1,7 +1,8 @@
 def my_select(array, num)
   counter = 1
   array.each do |item|
-    puts "#{yield item}"
+    num do |x|
+      puts "#{yield item} #{x}"
     counter += 1
   end
 end
