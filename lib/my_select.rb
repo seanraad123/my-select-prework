@@ -9,7 +9,3 @@ def my_select(array, num)
   end
   result
 end
-
-
-array = [1, 2, 3, 4, 5]
-my_select(array, 4)
