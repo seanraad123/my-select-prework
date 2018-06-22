@@ -10,5 +10,4 @@ end
 
 
 array = [1, 2, 3, 4, 5]
-puts array.size
 my_select(array, 4)
