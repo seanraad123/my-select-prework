@@ -7,6 +7,7 @@ def my_select(array, num)
     end
     counter += 1
   end
+  result
 end
 
 
