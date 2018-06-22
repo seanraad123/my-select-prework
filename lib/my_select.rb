@@ -3,6 +3,7 @@ def my_select(array, num)
   array.each do |item|
     num do |x|
       puts "#{yield item} #{x}"
+    end
     counter += 1
   end
 end
